@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3F29DEC1EBB599C00F54195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F29DEB1EBB599C00F54195 /* main.m */; };
+		F3F29DEF1EBB599C00F54195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F29DEE1EBB599C00F54195 /* AppDelegate.m */; };
+		F3F29DF21EBB599C00F54195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F29DF11EBB599C00F54195 /* ViewController.m */; };
+		F3F29DF51EBB599C00F54195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F29DF31EBB599C00F54195 /* Main.storyboard */; };
+		F3F29DF71EBB599C00F54195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F29DF61EBB599C00F54195 /* Assets.xcassets */; };
+		F3F29DFA1EBB599C00F54195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F29DF81EBB599C00F54195 /* LaunchScreen.storyboard */; };
+		F3F29E051EBB599C00F54195 /* ZGLVideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F29E041EBB599C00F54195 /* ZGLVideoPlayerTests.m */; };
+		F3F29E101EBB599C00F54195 /* ZGLVideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F29E0F1EBB599C00F54195 /* ZGLVideoPlayerUITests.m */; };
+		F3F29E221EBB59D600F54195 /* ZGLVideoMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F29E1F1EBB59D600F54195 /* ZGLVideoMaskView.m */; };
+		F3F29E231EBB59D600F54195 /* ZGLVideoPlyer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F29E211EBB59D600F54195 /* ZGLVideoPlyer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3F29E011EBB599C00F54195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F29DDF1EBB599C00F54195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F29DE61EBB599C00F54195;
+			remoteInfo = ZGLVideoPlayer;
+		};
+		F3F29E0C1EBB599C00F54195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F29DDF1EBB599C00F54195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F29DE61EBB599C00F54195;
+			remoteInfo = ZGLVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		640DF2AA1EF3B59100A5D9A0 /* ZGLVideoPalyer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZGLVideoPalyer-Prefix.pch"; sourceTree = "<group>"; };
+		F3F29DE71EBB599C00F54195 /* ZGLVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGLVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F29DEB1EBB599C00F54195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3F29DED1EBB599C00F54195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3F29DEE1EBB599C00F54195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3F29DF01EBB599C00F54195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3F29DF11EBB599C00F54195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3F29DF41EBB599C00F54195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3F29DF61EBB599C00F54195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F29DF91EBB599C00F54195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3F29DFB1EBB599C00F54195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F29E001EBB599C00F54195 /* ZGLVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGLVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F29E041EBB599C00F54195 /* ZGLVideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLVideoPlayerTests.m; sourceTree = "<group>"; };
+		F3F29E061EBB599C00F54195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F29E0B1EBB599C00F54195 /* ZGLVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGLVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F29E0F1EBB599C00F54195 /* ZGLVideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGLVideoPlayerUITests.m; sourceTree = "<group>"; };
+		F3F29E111EBB599C00F54195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F29E1E1EBB59D600F54195 /* ZGLVideoMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLVideoMaskView.h; sourceTree = "<group>"; };
+		F3F29E1F1EBB59D600F54195 /* ZGLVideoMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLVideoMaskView.m; sourceTree = "<group>"; };
+		F3F29E201EBB59D600F54195 /* ZGLVideoPlyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGLVideoPlyer.h; sourceTree = "<group>"; };
+		F3F29E211EBB59D600F54195 /* ZGLVideoPlyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGLVideoPlyer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F29DE41EBB599C00F54195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F29DFD1EBB599C00F54195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F29E081EBB599C00F54195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F29DDE1EBB599C00F54195 = {
+			isa = PBXGroup;
+			children = (
+				F3F29DE91EBB599C00F54195 /* ZGLVideoPlayer */,
+				F3F29E031EBB599C00F54195 /* ZGLVideoPlayerTests */,
+				F3F29E0E1EBB599C00F54195 /* ZGLVideoPlayerUITests */,
+				F3F29DE81EBB599C00F54195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F29DE81EBB599C00F54195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F29DE71EBB599C00F54195 /* ZGLVideoPlayer.app */,
+				F3F29E001EBB599C00F54195 /* ZGLVideoPlayerTests.xctest */,
+				F3F29E0B1EBB599C00F54195 /* ZGLVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F29DE91EBB599C00F54195 /* ZGLVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F3F29E1D1EBB59A300F54195 /* VideoPlayer */,
+				F3F29DED1EBB599C00F54195 /* AppDelegate.h */,
+				F3F29DEE1EBB599C00F54195 /* AppDelegate.m */,
+				F3F29DF01EBB599C00F54195 /* ViewController.h */,
+				F3F29DF11EBB599C00F54195 /* ViewController.m */,
+				F3F29DF31EBB599C00F54195 /* Main.storyboard */,
+				F3F29DF61EBB599C00F54195 /* Assets.xcassets */,
+				F3F29DF81EBB599C00F54195 /* LaunchScreen.storyboard */,
+				F3F29DFB1EBB599C00F54195 /* Info.plist */,
+				F3F29DEA1EBB599C00F54195 /* Supporting Files */,
+			);
+			path = ZGLVideoPlayer;
+			sourceTree = "<group>";
+		};
+		F3F29DEA1EBB599C00F54195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3F29DEB1EBB599C00F54195 /* main.m */,
+				640DF2AA1EF3B59100A5D9A0 /* ZGLVideoPalyer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3F29E031EBB599C00F54195 /* ZGLVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F29E041EBB599C00F54195 /* ZGLVideoPlayerTests.m */,
+				F3F29E061EBB599C00F54195 /* Info.plist */,
+			);
+			path = ZGLVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		F3F29E0E1EBB599C00F54195 /* ZGLVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F29E0F1EBB599C00F54195 /* ZGLVideoPlayerUITests.m */,
+				F3F29E111EBB599C00F54195 /* Info.plist */,
+			);
+			path = ZGLVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		F3F29E1D1EBB59A300F54195 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F3F29E1E1EBB59D600F54195 /* ZGLVideoMaskView.h */,
+				F3F29E1F1EBB59D600F54195 /* ZGLVideoMaskView.m */,
+				F3F29E201EBB59D600F54195 /* ZGLVideoPlyer.h */,
+				F3F29E211EBB59D600F54195 /* ZGLVideoPlyer.m */,
+			);
+			name = VideoPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F29DE61EBB599C00F54195 /* ZGLVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F29E141EBB599C00F54195 /* Build configuration list for PBXNativeTarget "ZGLVideoPlayer" */;
+			buildPhases = (
+				F3F29DE31EBB599C00F54195 /* Sources */,
+				F3F29DE41EBB599C00F54195 /* Frameworks */,
+				F3F29DE51EBB599C00F54195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGLVideoPlayer;
+			productName = ZGLVideoPlayer;
+			productReference = F3F29DE71EBB599C00F54195 /* ZGLVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3F29DFF1EBB599C00F54195 /* ZGLVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F29E171EBB599C00F54195 /* Build configuration list for PBXNativeTarget "ZGLVideoPlayerTests" */;
+			buildPhases = (
+				F3F29DFC1EBB599C00F54195 /* Sources */,
+				F3F29DFD1EBB599C00F54195 /* Frameworks */,
+				F3F29DFE1EBB599C00F54195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F29E021EBB599C00F54195 /* PBXTargetDependency */,
+			);
+			name = ZGLVideoPlayerTests;
+			productName = ZGLVideoPlayerTests;
+			productReference = F3F29E001EBB599C00F54195 /* ZGLVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3F29E0A1EBB599C00F54195 /* ZGLVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F29E1A1EBB599C00F54195 /* Build configuration list for PBXNativeTarget "ZGLVideoPlayerUITests" */;
+			buildPhases = (
+				F3F29E071EBB599C00F54195 /* Sources */,
+				F3F29E081EBB599C00F54195 /* Frameworks */,
+				F3F29E091EBB599C00F54195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F29E0D1EBB599C00F54195 /* PBXTargetDependency */,
+			);
+			name = ZGLVideoPlayerUITests;
+			productName = ZGLVideoPlayerUITests;
+			productReference = F3F29E0B1EBB599C00F54195 /* ZGLVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F29DDF1EBB599C00F54195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "智捷电商APPLE01";
+				TargetAttributes = {
+					F3F29DE61EBB599C00F54195 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SQH5JS2X8A;
+						ProvisioningStyle = Automatic;
+					};
+					F3F29DFF1EBB599C00F54195 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9Z6EKPZWGM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3F29DE61EBB599C00F54195;
+					};
+					F3F29E0A1EBB599C00F54195 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9Z6EKPZWGM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3F29DE61EBB599C00F54195;
+					};
+				};
+			};
+			buildConfigurationList = F3F29DE21EBB599C00F54195 /* Build configuration list for PBXProject "ZGLVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F29DDE1EBB599C00F54195;
+			productRefGroup = F3F29DE81EBB599C00F54195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F29DE61EBB599C00F54195 /* ZGLVideoPlayer */,
+				F3F29DFF1EBB599C00F54195 /* ZGLVideoPlayerTests */,
+				F3F29E0A1EBB599C00F54195 /* ZGLVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F29DE51EBB599C00F54195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F29DFA1EBB599C00F54195 /* LaunchScreen.storyboard in Resources */,
+				F3F29DF71EBB599C00F54195 /* Assets.xcassets in Resources */,
+				F3F29DF51EBB599C00F54195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F29DFE1EBB599C00F54195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F29E091EBB599C00F54195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F29DE31EBB599C00F54195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F29E221EBB59D600F54195 /* ZGLVideoMaskView.m in Sources */,
+				F3F29E231EBB59D600F54195 /* ZGLVideoPlyer.m in Sources */,
+				F3F29DF21EBB599C00F54195 /* ViewController.m in Sources */,
+				F3F29DEF1EBB599C00F54195 /* AppDelegate.m in Sources */,
+				F3F29DEC1EBB599C00F54195 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F29DFC1EBB599C00F54195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F29E051EBB599C00F54195 /* ZGLVideoPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F29E071EBB599C00F54195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F29E101EBB599C00F54195 /* ZGLVideoPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3F29E021EBB599C00F54195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F29DE61EBB599C00F54195 /* ZGLVideoPlayer */;
+			targetProxy = F3F29E011EBB599C00F54195 /* PBXContainerItemProxy */;
+		};
+		F3F29E0D1EBB599C00F54195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F29DE61EBB599C00F54195 /* ZGLVideoPlayer */;
+			targetProxy = F3F29E0C1EBB599C00F54195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3F29DF31EBB599C00F54195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F29DF41EBB599C00F54195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3F29DF81EBB599C00F54195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F29DF91EBB599C00F54195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3F29E121EBB599C00F54195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3F29E131EBB599C00F54195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F29E151EBB599C00F54195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQH5JS2X8A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chaojie/Downloads/ZGLVideoPlayer/ZGLVideoPlayer/ZGLVideoPalyer-Prefix.pch";
+				INFOPLIST_FILE = ZGLVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhijie.ZGLVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3F29E161EBB599C00F54195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQH5JS2X8A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chaojie/Downloads/ZGLVideoPlayer/ZGLVideoPlayer/ZGLVideoPalyer-Prefix.pch";
+				INFOPLIST_FILE = ZGLVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhijie.ZGLVideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3F29E181EBB599C00F54195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9Z6EKPZWGM;
+				INFOPLIST_FILE = ZGLVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhijie.ZGLVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGLVideoPlayer.app/ZGLVideoPlayer";
+			};
+			name = Debug;
+		};
+		F3F29E191EBB599C00F54195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9Z6EKPZWGM;
+				INFOPLIST_FILE = ZGLVideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhijie.ZGLVideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGLVideoPlayer.app/ZGLVideoPlayer";
+			};
+			name = Release;
+		};
+		F3F29E1B1EBB599C00F54195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9Z6EKPZWGM;
+				INFOPLIST_FILE = ZGLVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhijie.ZGLVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGLVideoPlayer;
+			};
+			name = Debug;
+		};
+		F3F29E1C1EBB599C00F54195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9Z6EKPZWGM;
+				INFOPLIST_FILE = ZGLVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhijie.ZGLVideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGLVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F29DE21EBB599C00F54195 /* Build configuration list for PBXProject "ZGLVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F29E121EBB599C00F54195 /* Debug */,
+				F3F29E131EBB599C00F54195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F29E141EBB599C00F54195 /* Build configuration list for PBXNativeTarget "ZGLVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F29E151EBB599C00F54195 /* Debug */,
+				F3F29E161EBB599C00F54195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F29E171EBB599C00F54195 /* Build configuration list for PBXNativeTarget "ZGLVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F29E181EBB599C00F54195 /* Debug */,
+				F3F29E191EBB599C00F54195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F29E1A1EBB599C00F54195 /* Build configuration list for PBXNativeTarget "ZGLVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F29E1B1EBB599C00F54195 /* Debug */,
+				F3F29E1C1EBB599C00F54195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F29DDF1EBB599C00F54195 /* Project object */;
+}
